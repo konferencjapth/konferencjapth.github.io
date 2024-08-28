@@ -1408,6 +1408,26 @@ a {
 .cid-sZwd2Zted1 .card-box {
   text-align: center;
 }
+.cid-umErWU4lAA {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fafafa;
+}
+.cid-umErWU4lAA img {
+  width: 120px;
+  margin: auto;
+}
+.cid-umErWU4lAA .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-umErWU4lAA .card {
+    max-width: 12.5%;
+  }
+}
 .cid-ujxjkHYT9M {
   padding-top: 1rem;
   padding-bottom: 1rem;
