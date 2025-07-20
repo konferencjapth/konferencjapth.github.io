@@ -5,12 +5,12 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Merriweather', serif;
-  font-size: 2.8rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 3.5rem;
+  font-size: 1.125rem;
 }
 .display-2 {
   font-family: 'Merriweather', serif;
@@ -51,14 +51,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 2.24rem;
+    font-size: 0.72rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 1.96rem;
-    font-size: calc( 1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.63rem;
+    font-size: calc( 0.965rem + (0.9 - 0.965) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (0.965rem + (0.9 - 0.965) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.6rem;
@@ -1168,7 +1168,7 @@ a {
 .cid-uR6zLyxzLj {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-image: url("../../../assets/images/mbr-1920x1484.jpg");
+  background-image: url("../../../assets/images/mbr-38-1920x1280.jpg");
 }
 .cid-uR6zLyxzLj .mbr-fallback-image.disabled {
   display: none;
@@ -1452,39 +1452,25 @@ a {
 .cid-sZwd2Zted1 .card-box {
   text-align: center;
 }
-.cid-uGo8Xp7CRY {
+.cid-uRvMtPcrCw {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-image: url("../../../assets/images/mbr-38-1920x1280.jpeg");
+  background-color: #ffffff;
 }
-.cid-uGo8Xp7CRY .mbr-fallback-image.disabled {
-  display: none;
+.cid-uRvMtPcrCw img {
+  width: 120px;
+  margin: auto;
 }
-.cid-uGo8Xp7CRY .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
+.cid-uRvMtPcrCw .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
 }
-.cid-uGo8Xp7CRY .mbr-text,
-.cid-uGo8Xp7CRY .mbr-section-btn {
-  color: #232323;
-}
-.cid-uGo8Xp7CRY .card-title,
-.cid-uGo8Xp7CRY .card-box {
-  color: #000000;
-}
-.cid-uGo8Xp7CRY .mbr-text,
-.cid-uGo8Xp7CRY .link-wrap {
-  color: #ffffff;
-}
-.cid-uGo8Xp7CRY .card-box .mbr-text,
-.cid-uGo8Xp7CRY .mbr-section-btn {
-  color: #000000;
-  text-align: left;
+@media (min-width: 992px) {
+  .cid-uRvMtPcrCw .card {
+    max-width: 12.5%;
+  }
 }
 .cid-uQQcPQvu78 {
   padding-top: 1rem;
